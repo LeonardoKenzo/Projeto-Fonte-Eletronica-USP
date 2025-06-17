@@ -5,40 +5,37 @@
   Os cálculos de dimensionamento, o esquema do circuito e a lista de componentes estão descritos abaixo.
 
 ## 🧰 Tabela de Componentes Utilizados
-|Quantidade|Nome do Componente |Valor  | Modelo	Especificações                    |
-|----------|-------------------|-------|------------------------------------------|
-|1  |Transformador	           |R$00,00|12V  500mA	Entrada 127V AC, saída 12V AC |
-|1	|Ponte Retificadora	       |R$00,00|KBPC ou 4 diodos 1N4007	Corrente máx: 1A  |
-|1	|Capacitor Eletrolítico    |R$00,00|1000µF / 25V	                            |
-|1	|CI Regulador de Tensão    |R$00,00|LM317	Regulável de 1,25V a 37V            |
-|1	|Potenciômetro	           |R$00,00|5kΩ	Ajuste da tensão de saída             |
-|1	|Capacitor Cerâmico	       |R$00,00|0,1µF	Estabilidade do CI                  |
-|1	|Capacitor Eletrolítico    |R$00,00|1µF / 25V	Estabilidade da saída           |
-|1	|Resistor	                 |R$00,00|240Ω	Definidor de tensão (LM317)         |
-|1	|Dissipador de Calor	     |R$00,00|Pequeno para CI	Dissipação térmica        |
+|Quantidade|Nome do Componente |Valor Total| Modelo e Especificações                  |
+|----------|-------------------|-----------|------------------------------------------|
+|1 |Protoboard                 |R$21,70    |BB-01 440P S/Base Tower ++                |
+|1 |Transformador	             |R$00,00    |Voltagem AC 18.1V                         |
+|1	|Capacitor Eletrolítico     |R$1,50     |470µF / 25V	                             |
+|1	|Potenciômetro	             |R$07,00    |B10K B16-E 10kΩ / 1W                      |
+|10|Diodo Retificador	       |R$2,00     |1N4007	Corrente máx: 1A                   |
+|2 |Diodo Zener                |R$0,80     |1N5243 13V / 1/2W                         |
+|2 |Transistor                 |R$5,10     |2N2222A NPN 60V / 0,8A                    |
+|10|Resistor 4K7	             |R$0,70     |CR25 4K7 4,7kΩ                            |
+|10|Resistor 1K                |R$0,70     |CR25 1K 1kΩ                               |
+|2 |Resistor 100R              |R$3,80     |5W 100Ω 5%                                |
+
+*Obs.: As peças estão contabilizadas com pelo menos 1 componente reserva*
 
 ## 📝 Descrição dos Componentes
-* **Transformador:** Reduz a tensão da rede elétrica (127V AC) para 12V AC, adequada para a fonte.
+* **Transformador:** Reduz a tensão da rede elétrica (127V AC) para 12V, adequada para a fonte.
 
 * **Ponte Retificadora / Diodos:** Convertem a tensão AC em DC, realizando a retificação de onda completa.
 
-* **Capacitor de 1000µF:** Atua como filtro, reduzindo o ripple da tensão após a retificação.
+* **Diodo Zener:** Ajusta a voltagem máxima como 13V para a fonte.
 
-* **LM317:** CI regulador ajustável que permite variar a tensão de saída entre 3V e 12V.
+* **Capacitor de 470µF:** Atua como filtro, reduzindo o ripple da tensão após a retificação.
 
 * **Potenciômetro:** Permite ajustar a tensão de saída de forma precisa.
 
-* **Capacitores de 0,1µF e 1µF:** Melhoram a estabilidade da tensão de saída e previnem oscilações.
-
-* **Resistor de 240Ω:** Trabalha junto com o potenciômetro para determinar a tensão de saída segundo a fórmula do LM317.
-
-* **Dissipador de Calor:** Evita o superaquecimento do LM317 durante a operação.
-
-* **Cabos:** Para realizar todas as interligações do circuito.
+* **Resistores 4K7:** Trabalha junto com o potenciômetro para determinar a tensão de saída segundo a fórmula do LM317.
 
 ## 📈 Circuito do Projeto
 📷 Imagem do Esquema Elétrico:
-(Adicione a imagem do esquema aqui)
+<img src="">
 
 📷 Imagem da Montagem Física (Protoboard ou PCB):
 (Adicione a imagem da montagem aqui)
