@@ -39,7 +39,7 @@
 
 <img src="./ImagensCircuito/Imagem-Circuito-Eletronico.png">
 
-*Link do circuito: [Tinyurl](https://tinyurl.com/22xu3at5).*
+*Link do circuito: [Tinyurl](https://tinyurl.com/25kfmzp6).*
 
 #### 📷 Imagem da Montagem Física (Protoboard ou PCB):
 
