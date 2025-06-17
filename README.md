@@ -37,7 +37,7 @@
 ## 📈 Circuito do Projeto
 #### 📷 Imagem do Esquema Elétrico:
 
-<img src="./ImagensCircuito/Imagem-Circuito-Eletronico.jpeg">
+<img src="./ImagensCircuito/Imagem-Circuito-Eletronico.png">
 
 *Link do circuito: [Tinyurl](https://tinyurl.com/22xu3at5).*
 
