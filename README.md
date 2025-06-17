@@ -54,7 +54,7 @@
 
 #### Cálculo do Ripple:
 
-<img height="500px" src="./ImagensCircuito/Calculos.jpeg">
+<img height="350px" src="./ImagensCircuito/Calculos.jpeg">
 
 ## 👨‍🎓 Alunos Responsáveis
 Leonardo Kenzo Tanaka [Github: [LeonardoKenzo](https://github.com/LeonardoKenzo)]
