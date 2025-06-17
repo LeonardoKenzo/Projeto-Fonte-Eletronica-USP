@@ -10,13 +10,14 @@
 |1 |Protoboard                 |R$21,70    |BB-01 440P S/Base Tower ++                |
 |1 |Transformador	             |R$00,00    |Voltagem AC 18.1V                         |
 |1	|Capacitor Eletrolítico     |R$1,50     |470µF / 25V	                             |
-|1	|Potenciômetro	             |R$07,00    |B10K B16-E 10kΩ / 1W                      |
+|1	|Potenciômetro	             |R$07,00    |B10K B16-E 10kΩ / 1W Linear               |
 |10|Diodo Retificador	       |R$2,00     |1N4007	Corrente máx: 1A                   |
 |2 |Diodo Zener                |R$0,80     |1N5243 13V / 1/2W                         |
 |2 |Transistor                 |R$5,10     |2N2222A NPN 60V / 0,8A                    |
 |10|Resistor 4K7	             |R$0,70     |CR25 4K7 4,7kΩ                            |
 |10|Resistor 1K                |R$0,70     |CR25 1K 1kΩ                               |
 |2 |Resistor 100R              |R$3,80     |5W 100Ω 5%                                |
+|1 |LED vermelho               |R$0.20     |LED5MM                                    |
 
 *Obs.: As peças estão contabilizadas com pelo menos 1 componente reserva*
 
@@ -31,20 +32,29 @@
 
 * **Potenciômetro:** Permite ajustar a tensão de saída de forma precisa.
 
-* **Resistores 4K7:** Trabalha junto com o potenciômetro para determinar a tensão de saída segundo a fórmula do LM317.
+* **Resistores 4K7:** Trabalha junto com o potenciômetro para determinar a tensão de saída.
 
 ## 📈 Circuito do Projeto
-📷 Imagem do Esquema Elétrico:
-<img src="">
+#### 📷 Imagem do Esquema Elétrico:
 
-📷 Imagem da Montagem Física (Protoboard ou PCB):
-(Adicione a imagem da montagem aqui)
+<img src="./ImagensCircuito/Imagem-Circuito-Eletronico.jpeg">
+
+*Link do circuito: [Tinyurl](https://tinyurl.com/22xu3at5).*
+
+#### 📷 Imagem da Montagem Física (Protoboard ou PCB):
+
+<img src="./ImagensCircuito/">
 
 ## ✏️ Cálculos Utilizados
-ini
-Copiar código
-Vout = 1.25V × (1 + (R2/R1)) + (Iadj × R2)
-(Adicione os cálculos detalhados em formato de imagem ou texto)
+#### Cálculo do capacitor:
+
+<img src="./ImagensCircuito/Calculo-Capacitor.jpeg">
+
+*Obs.: Aumentamos o capacitor de 220uF para 470uF a fim de aumentar a voltagem do bottom do Ripple, para colocar um resistor de 1kΩ antes do Zenner*
+
+#### Cálculo do Ripple:
+
+<img src="./ImagensCircuito/Calculos.jpeg">
 
 ## 👨‍🎓 Alunos Responsáveis
 Leonardo Kenzo Tanaka [Github: [LeonardoKenzo](https://github.com/LeonardoKenzo)]
