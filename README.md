@@ -37,9 +37,9 @@
 ## 📈 Circuito do Projeto
 #### 📷 Imagem do Esquema Elétrico:
 
-<img src="./ImagensCircuito/Imagem-Circuito-Eletronico.jpeg">
+<img src="./ImagensCircuito/Imagem-Circuito-Eletronico.png">
 
-*Link do circuito: [Tinyurl](https://tinyurl.com/22xu3at5).*
+*Link do circuito: [Tinyurl](https://tinyurl.com/25kfmzp6).*
 
 #### 📷 Imagem da Montagem Física (Protoboard ou PCB):
 
@@ -48,13 +48,13 @@
 ## ✏️ Cálculos Utilizados
 #### Cálculo do capacitor:
 
-<img src="./ImagensCircuito/Calculo-Capacitor.jpeg">
+<img height="500px" src="./ImagensCircuito/Calculo-Capacitor.jpeg">
 
 *Obs.: Aumentamos o capacitor de 220uF para 470uF a fim de aumentar a voltagem do bottom do Ripple, para colocar um resistor de 1kΩ antes do Zenner*
 
 #### Cálculo do Ripple:
 
-<img src="./ImagensCircuito/Calculos.jpeg">
+<img height="350px" src="./ImagensCircuito/Calculos.jpeg">
 
 ## 👨‍🎓 Alunos Responsáveis
 Leonardo Kenzo Tanaka [Github: [LeonardoKenzo](https://github.com/LeonardoKenzo)]
