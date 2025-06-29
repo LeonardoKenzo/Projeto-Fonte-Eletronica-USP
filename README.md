@@ -43,9 +43,12 @@
 
 #### 📷 Imagem da Montagem Física (Protoboard ou PCB):
 
-<img height="350px" src="./ImagensCircuito/Fonte.jpeg">
+<div align="left">
+   <img height="350px" src="./ImagensCircuito/Fonte.jpeg">
+   <img  height="350px" src="./ImagensCircuito/Eagle.png">
+</div>
 
-#### 📷 Vídeo do projeto funcionando: 
+#### 📷 Vídeo do projeto funcionando:
 
 Vídeo do projeto: [Link vídeo](https://youtube.com/shorts/rOSG82Ku_2E?feature=shared)
 
