@@ -43,7 +43,11 @@
 
 #### 📷 Imagem da Montagem Física (Protoboard ou PCB):
 
-<img src="./ImagensCircuito/">
+<img height="350px" src="./ImagensCircuito/Fonte.jpeg">
+
+#### 📷 Vídeo do projeto funcionando: 
+
+Vídeo do projeto: [Link vídeo](https://youtube.com/shorts/rOSG82Ku_2E?feature=shared)
 
 ## ✏️ Cálculos Utilizados
 #### Cálculo do capacitor:
